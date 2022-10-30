@@ -1,0 +1,8 @@
+p{
+    text-transform: uppercase;
+    text-decoration-line:underline ;
+}
+p1{
+    text-transform: lowercase;
+    text-decoration-line: line-through   ;
+}

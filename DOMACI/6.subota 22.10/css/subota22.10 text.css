@@ -1,0 +1,36 @@
+body{
+    font-size: 10px;
+    font-weight: 100px;
+}
+@font-face {
+    font-family:'FuzzyBubbles-Regular.ttf' ;
+    src: url(./FuzzyBubbles-Regular.ttf);
+}
+h1{
+    font-family:'FuzzyBubbles-Regular.ttf' ;
+}
+@font-face {
+    font-family:'Noto+Sans+Vai';
+    src:url(https://fonts.google.com/noto/specimen/Noto+Sans+Vai); /*ne funkcionise*/
+}
+p{
+font-family:'Noto+Sans+Vai';
+font-size: 20;
+font-weight: 200;
+
+}
+p1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: oblique;
+}
+p2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#prviID{
+    font-family: fantasy;
+}
+#spanID{
+    font-size: 25px;
+    font-style: italic;
+}
+

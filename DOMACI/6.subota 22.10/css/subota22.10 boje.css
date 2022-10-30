@@ -1,0 +1,35 @@
+p{
+    color:darkblue;
+    opacity: 0.5;
+    background-color: aqua;
+    
+
+}
+
+p1{
+    color: rgb(77, 60, 6);
+    background-color:rgba(211, 188, 115,0.5) ;
+}
+p2{
+    color: #00008b;
+    background-color: #a6a6d8;
+}
+div{
+    color:rgba(146, 206, 186,1)
+    
+}
+#kolona1{
+    background-color:AliceBlue;
+}
+#kolona2{
+    background-color:HotPink;
+}
+#kolona3{
+    background-color:rgb(159, 192, 99);
+}
+#kolona4{
+    background-color:rgb(44, 80, 112);
+}
+#kolona5{
+    background-color:rgb(17, 82, 82);
+}

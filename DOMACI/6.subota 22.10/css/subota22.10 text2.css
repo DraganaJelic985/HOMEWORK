@@ -1,0 +1,17 @@
+
+p{
+    letter-spacing: 5px;
+    text-align: left;
+}
+p1{
+    line-height: 200% ;
+    text-align: right;
+}
+p2{
+    text-align: center;
+
+}
+.linkovi{
+/*ne znam kako bih u css ubacila boje linkova, ali sam ubacila u html-u*/
+    
+}
