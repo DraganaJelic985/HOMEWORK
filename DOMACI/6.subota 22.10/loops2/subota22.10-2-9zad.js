@@ -12,3 +12,7 @@ for (i=0; i<a.length; i++){
     }
 }
 console.log(a)
+
+
+//KOMENTAR: zar ti nije bilo lakse da napravis novi prazan niz
+// I da u taj novi niz ubacujes elemente koji nisu jednaki zadatom elementu e? :) 
