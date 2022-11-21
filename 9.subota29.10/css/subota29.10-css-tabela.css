@@ -1,0 +1,24 @@
+table{
+   margin:0 auto 0 auto;
+   border-collapse: collapse;
+}
+.tr1{
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-collapse: collapse;
+    
+
+}
+img{
+    height: 100px;
+}
+td{
+    padding: 10px 0px 10px 0px;
+}
+tr:hover{
+background-color:yellow;
+}
+.tr3{
+    background-color: rgb(189, 187, 187);
+}

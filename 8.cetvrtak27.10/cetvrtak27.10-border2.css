@@ -1,0 +1,41 @@
+h1{
+    background-color: rgb(183, 183, 220);
+    color: blue;
+    font-style: oblique;
+    width: 960px;
+    margin: 50 auto 50 auto;
+    text-align:center ;
+    padding: 50 0 50 0;
+    box-shadow: 10px 10px 10px green;
+    border-radius: 20px;
+
+}
+
+p{
+    display: inline-block;
+}
+
+.prviParagraf{
+    background-color: yellow;
+    border: 5px dashed red;
+    width: 200px;
+    margin-right: 20px;   
+    
+    }
+    
+    .drugiParagraf{
+        background-color: yellow;
+        border: 5px solid green;
+        width: 300px;
+        margin-right: 20px;  
+        visibility: hidden;
+        
+    }
+    .treciParagraf{
+        background-color: yellow;
+        border: 5px dashed red;
+        width: 200px;
+        margin-right: 20px;
+        
+      
+    }

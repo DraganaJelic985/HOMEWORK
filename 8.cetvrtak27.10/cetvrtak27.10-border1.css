@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+  
+  
+}
+
+.prviParagraf{
+background-color: yellow;
+border: 5px dashed red;
+padding: 50px;
+width: 300px;
+margin: 50px;
+
+}
+
+.drugiParagraf{
+    background-color: yellow;
+    border: 5px solid green;
+    padding-top: 50px;
+    width: 400px;
+    margin:0px auto 0px auto ;
+}
+.treciParagraf{
+    background-color: yellow;
+    border: 5px dashed red;
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+}
