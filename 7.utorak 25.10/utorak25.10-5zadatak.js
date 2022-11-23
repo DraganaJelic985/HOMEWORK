@@ -28,3 +28,6 @@ function square(a){
 }
 var kocka= square(5)
 console.log(kocka)
+
+
+// Nije problem, da li razumes ovaj zadatak? Bitno mi je jako da razumes, nema veze ako prepises.
