@@ -11,6 +11,7 @@ function separatorInString(string){
     for (i=0; i<niz.length; i++){
         if (niz[i]== " "){
     niz.splice(niz.indexOf(" "), 1, "_")  //za ostala dva primera samo menjam znak kojim menjam razmak
+            // Da li bi znala da uradis zadatak da stavis taj znak kao ulazni parametar? Jer znak moze biti i * (zvezdica).
         }
     }
     return niz.join('')
