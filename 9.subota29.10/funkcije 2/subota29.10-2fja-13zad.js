@@ -20,3 +20,5 @@ function humanizeNum(num){
 }
 var rezultat = humanizeNum(15)
 console.log (rezultat)
+
+// Sta ako probam da unesem broj 11? Ili broj 21? Ili broj 32? :) Onda neces dobiti dobar rezultat. Zasto? :) 
