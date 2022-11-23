@@ -9,4 +9,14 @@ function concatenatesString(string, num){
  var rezultat= concatenatesString("abc",3)
  console.log(rezultat)
 
+// sa for petljom bi resenje bilo nesto ovako:
+function concatenate(pocetniString, num) {
+ var trenutniString = pocetniString;
+ 
+ for(var i = 0; i < num; i++) {
+    trenutniString += pocetniString;
+ }
+ 
+ return trenutniString;
+}
 
