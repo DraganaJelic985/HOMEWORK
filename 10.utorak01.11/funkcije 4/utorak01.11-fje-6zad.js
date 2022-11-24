@@ -31,3 +31,4 @@ var rezultat = simetricArray ([3, 5, 5, 3]);
 console.log (rezultat)
 
 
+// Ovaj ti nije dobar. Probaj da uradis sa nizom [3, 4, 5, 8, 3]. Dobices da je simetrican. Sta mislis zasto? :)
