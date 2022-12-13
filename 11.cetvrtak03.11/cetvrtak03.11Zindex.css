@@ -1,0 +1,70 @@
+hr{position: relative;}
+div{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: blue;
+}
+.div3{
+    background-color: purple;
+}
+
+.div1a{
+    background-color: red;
+}
+.div2a{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+.div3a{
+    background-color: purple;
+    position: relative;
+    left: 200px;
+    top:-200px;
+}
+.divb{
+    position:relative;
+}
+.div1b{
+    background-color: red;
+    position: absolute;
+    left: 700px;
+    z-index: 3;
+}
+.div2b{
+    background-color: blue;
+    position: absolute;
+    left: 600px;
+    bottom: -100px;
+    z-index: 2;
+}
+.div3b{
+    background-color: purple;
+    position: absolute;
+    left: 500px;
+    bottom: -200px;
+    z-index: 1;
+}
+
+nav{
+    width: 960px;
+    background-color: crimson;
+    height: 25px;;
+}
+ul{
+    float: right;
+    margin: 0px;
+}
+li{
+    display: inline;
+}
+
+
+

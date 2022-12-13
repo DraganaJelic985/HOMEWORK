@@ -1,0 +1,18 @@
+
+/*SIZE/ALIGNING*/
+.slika1{
+    height: 200px;
+    float: right ;
+}
+
+.slika2{
+    width: 200px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.slika3{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
