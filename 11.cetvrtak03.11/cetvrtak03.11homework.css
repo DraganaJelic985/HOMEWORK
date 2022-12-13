@@ -1,0 +1,82 @@
+html{
+    box-sizing: border-box;
+}
+
+.div0{
+    background-color: rgb(215, 214, 214);
+    width: 750px;
+    height: 250px;
+    margin: 50px 50px 50px 100px;
+}
+
+.zaglavlje{
+    box-sizing: border-box;
+    background-color: orange;
+    height: 70px;
+    width: 700px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+.zaglavlje::after{
+    box-sizing: border-box;
+}
+a{
+    top: 20px;
+    position: relative;
+    left: 25px;
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    padding: 10px ;
+}
+.home{
+    background-color: rgb(215, 214, 214);
+    
+}
+.kolone1{
+    display: none;
+    width: 130px;
+    height: 30px;
+    position:absolute;
+    left: 0px;
+    top: 38px;
+}
+.kolone2{
+    display: none;
+    width: 130px;
+    height: 30px;
+    position:absolute;
+    left: 0px;
+    top:38px;
+}
+.kolone3{
+    display: none;
+    width: 130px;
+    height: 30px;
+    position:absolute;
+    left: 0px;
+    top:38px;
+}
+p{
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 10px 0px 10px 5px;
+}
+.pW{
+    background-color: rgb(215, 214, 214);
+}
+a:hover{
+    background-color: rgb(215, 214, 214);
+}
+.a1:hover .kolone1{
+       display: block;
+}
+.a2:hover .kolone2{
+    display: block;
+}
+.a3:hover .kolone3{
+    display: block;
+}

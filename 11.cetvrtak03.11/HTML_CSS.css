@@ -1,0 +1,71 @@
+body{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    width: 960px;
+    background-color: #D32F2F;
+    height: 40px;
+    margin: 0 auto 0 auto;
+}
+header{
+    width: 960px;
+    height:500px;
+    background-color: white;
+    margin: 0 auto 0 auto ;
+}
+img{ 
+    width: 960px;
+    height: 500px;
+}
+ul{
+    float: right;
+    margin-top: 10px;
+}
+li{
+    display: inline;
+    margin-inline-end: 10px;
+}
+main{
+    width: 960px;
+    margin: 0 auto 0 auto ;
+    color: #3F51B5;
+}
+.tekstUzutom{
+    background-color: #FBC02D;
+    width: 280px;
+    float: right;
+    margin-top: 25px;
+    padding:0px 5px 0px 5px ;
+}
+.tekstUzutom p{
+    margin: 0px;
+}
+div{
+    display:inline-block;
+    width: 300px;
+    margin-left: 10px;
+}
+.pUboji{
+    height: 200px;
+    text-align: center;
+    background-color: #3F51B5;
+    box-sizing: border-box;
+    padding-top: 90px;
+    color: white;
+    
+}
+#crvena{ background-color: #D32F2F;}
+#zuta{ background-color: #FFC107;}
+#zelena{ background-color: #4CAF50;}
+footer{
+    box-sizing: border-box;
+    height: 40px;
+    background-color: #3F51B5;
+    text-indent: 280px;
+    padding-top: 10px;
+    color: white;
+}
+hr{
+    
+}
