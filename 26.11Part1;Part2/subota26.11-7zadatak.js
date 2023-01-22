@@ -56,3 +56,10 @@ Morala bih da nadjem koji element niza se ponavlja i da proverim da li se on pon
  a da pritom iskljucim ako se ponavlja vise puta nego u prvom nizu... a trenutno nemam mozga da sve to uklopim u celinu...
 Tako da cu ovaj zadatak ostaviti kao nesto sto nisam uspela da uradim....*/
 
+
+// Evo ideja kako da razmisljas mozda:
+// Imas samo jednu funkciju koja prima oba niza. Prvi niz je niz koji gledas da li se ponavlja, drugi niz je onaj veci niz koji proveravas.
+// Drugi (veci) niz kopiraj, da imas dve instance.
+// Prolazi kroz prvi i drugi niz. Ako se element iz prvog niza nalazi u drugom - izbaci taj element IZ KOPIJE.
+// Kada prodjes kroz celu petlju onda izbrojis koliko elemenata imas u drugom nizu a koliko u KOPIJI.
+// Ako je razlika u broju elemenata jednaka broju elemenata prvog niza - vracas rezultat TRUE, ako nije onda FALSE.
