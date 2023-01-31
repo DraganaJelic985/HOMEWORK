@@ -1,0 +1,11 @@
+.drugaLista{
+    background-color: yellow;
+    
+}
+.active{
+    background-color: red;
+}
+div{
+    min-height: 50px;
+
+}
