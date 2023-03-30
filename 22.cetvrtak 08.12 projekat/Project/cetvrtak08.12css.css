@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    margin: 20px 0;
+}
+
+
+nav{
+    width: 100%;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(30, 30, 73);
+    position: relative;
+}
+.naslov{
+    color: white;
+    padding: 10px;
+    float: left;
+}
+
+.btn-meni{
+    width: 110px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 5px 10px;
+    top: 10px;
+    right: 5px;
+    background-color: rgb(17, 164, 145);
+    float: right;
+}
+.meni-ul{
+    position: absolute;
+    left: 70%;
+    width: 20%;
+    font-size: 15px;
+    color: white;
+    top: 40px;
+    
+    background-color: rgb(17, 164, 145);
+}
+p{
+    font-size: 15px;
+}
+
+.btn-meni:hover .meniDiv{
+    display: block;
+    background-color:rgb(17, 164, 145);
+}
+.dropdown-menu>li>a {
+    color: white;
+}
+.meni-ul{
+    float: right;
+}
+header{
+    background-color: rgb(17, 164, 145);
+}
+.profil{
+    width: 30%;
+    margin: 10px 30%;
+}
+h1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+.linija-zvezda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.linija-zvezda .linija{
+    width: 100%;
+    max-width: 150px;
+    height: 4px;
+    background-color: #333;
+  }
+  .linija-zvezda .linija:first-child {
+    margin-right: 10px;
+  }
+  .linija-zvezda .linija:last-child {
+    margin-left: 10px;
+  }
+  .linija-zvezda .zvezda {
+    font-size: 48px;
+  }
+  
+  .slike-skrol img{
+    margin: 10px 0px;
+  }
+  @media screen and (max-width:768px) {
+    .slike-skrol{
+      height:800px;
+      overflow-y: scroll;
+      width: 90%;
+      margin: 0px 5%;
+    }
+    .slike-skrol img{
+      width: 100%;
+    }
+  } 
+    
+  
+  #about{
+    background-color:rgb(17, 164, 145) ;
+    color: white;
+    padding: 20px;
+  }
+  .btn-find{
+    background-color:rgb(17, 164, 145);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30% ;
+    margin: 10px 30%;
+  }
+  label{
+    color: rgb(155, 154, 154);
+  }
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(155, 154, 154);
+  }
+  textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(155, 154, 154);
+  }
+  .btn-send{
+    color: white;
+    background-color:rgb(17, 164, 145) ;
+    border: 2px solid rgb(17, 164, 145);
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  footer{
+    text-align: center;
+    background-color: rgb(30, 30, 73);
+    color: white;
+  }
+  footer i{
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+  }
+  .transparent{
+    opacity: 0.4;
+  }
+  

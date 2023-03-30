@@ -1,0 +1,28 @@
+$underline: none;
+$alinkBG:yellow;
+$vlinkBG: orange;
+$nlinkBG:green;
+$vazniLinkovi: bold;
+$fontP:16px;
+
+a{
+    text-decoration: $underline;
+    &:visited{
+        background-color: $vlinkBG;
+    }
+    &:link{
+        background-color: $nlinkBG;
+    }
+    &:active{
+        background-color: $alinkBG;
+    }
+}
+    .important{
+        font-weight: $vazniLinkovi  ;
+    }
+@for $i from 0 through 3 {
+    p#{$i}{
+        font-size: $fontP + 2px * $i ;
+    }
+}
+

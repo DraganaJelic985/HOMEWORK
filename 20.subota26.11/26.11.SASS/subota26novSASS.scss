@@ -1,0 +1,13 @@
+$bgColor:aqua;
+$fontSize: 26px;
+
+
+
+p{
+    background-color: $bgColor;
+    font-size: $fontSize;
+}
+p{
+    font-style: italic;
+    text-decoration: underline;
+}

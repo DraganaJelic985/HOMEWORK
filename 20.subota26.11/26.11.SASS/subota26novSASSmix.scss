@@ -1,0 +1,18 @@
+@mixin boxShadow($horizontl, $vertical, $blur, $spred, $color){
+    box-shadow: $horizontl $vertical $blur $spred $color;
+    border-radius: 5px;
+    background-color: aqua;
+    text-align: center;
+}
+@mixin textShadow ($horizontlt, $verticalt, $blurt, $colort){
+    text-shadow: $horizontlt $verticalt $blurt $colort;
+    color: pink;
+    text-shadow:  0 0 1em blue, 0 0 0.2em blue;
+    
+}
+h1{
+    @include boxShadow(5px,5px,5px,5px,blue )   
+}
+p{
+    @include textShadow(1px,1px,5px,purple)
+}
